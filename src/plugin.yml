@@ -1,0 +1,38 @@
+name: AndasiaCore
+author: B_nair
+version: 1.0
+main: su.binair.andasia.Main
+depend: [AndasiaAPI, Vault, AndasiaFactions, WorldGuard, GlobalAPI, WorldEdit, AndasiaMisc]
+commands:
+  bottlexp:
+  msg:
+    aliases: [w,m,t,pm,emsg,epm,tell,etell,whisper,ewhisper]
+  r:
+  poubelle:
+  structure:
+    permission: andasia.structure
+  randomtp:
+    aliases: [rtp, randtp]
+  staff:
+    permission: andasia.staff
+  freeze:
+    permission: andasia.freeze
+  stacker:
+    permission: andasia.stack
+  clearlag:
+    permission: andasia.clearlag
+  chateau:
+    permission: andasia.chateau
+  doublexp:
+    permission: andasia.doublexp
+  combattag:
+    aliases: [ct, combat]
+  totem:
+    permission: andasia.totem
+  koth:
+    permission: andasia.koth
+  jobs:
+  quest:
+    aliases: [quete, quetes]
+  rename:
+    permission: andasia.rename
